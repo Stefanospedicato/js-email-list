@@ -29,6 +29,9 @@ function addEmails(){
   }
 }
 
+const btn = document.getElementById('bottone');
+
+btn.addEventListener('click', addEmails)
 
 function addList(emails){
   lista.innerHTML = ''
@@ -36,8 +39,12 @@ function addList(emails){
     const element = document.createElement('li');
     element.textContent = email;
     lista.append(element)
+    btn.classList.remove('d-none')
   })
 }
 
-
 addEmails();
+
+
+
+

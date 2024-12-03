@@ -1,5 +1,21 @@
+body{
+  background-color: black;
+}
+
 ul{
   list-style: none;
   font-size: 2rem;
-  text-transform: uppercase;
+  text-transform: uppercase;  
+}
+
+#bottone{
+  margin-top: 50px;
+  padding: 20px 150px 20px 150px;
+  font-family:sans-serif;
+  font-weight: bold;
+  transition: all 0.5s;
+}
+
+#bottone:hover{
+  scale: 1.2;
 }
